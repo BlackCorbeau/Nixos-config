@@ -5,5 +5,6 @@
         ./style.nix
         ./git.nix
         ./mako.nix
+        ./yazi.nix
     ];
 }
