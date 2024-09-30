@@ -17,6 +17,7 @@
     pkgs.wofi
     pkgs.google-chrome
     pkgs.yazi
+    nerdfonts
     pkgs.waybar
     grimblast
     tree
@@ -76,5 +77,20 @@
     pipewire
     pulseaudio
     pamixer
+   
+    #GameManager
+  ];
+
+fonts.packages = with pkgs; [
+    jetbrains-mono
+    noto-fonts
+    noto-fonts-emoji
+    twemoji-color-font
+    font-awesome
+    powerline-fonts
+    powerline-symbols
+    ubuntu_font_family
+    unifont
+    (nerdfonts.override { fonts = [ "NerdFontsSymbolsOnly" ]; })
   ]; 
 }
