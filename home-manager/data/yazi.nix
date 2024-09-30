@@ -44,12 +44,12 @@ in {
 					on = "T";
 					run = "plugin --sync max-preview";
 					desc = "Maximize or restore the preview pane";
-				};
+				}
 				{
 					on = ["c" "m"];
 					run = "plugin chmod";
 					desc = "Chmod on selected files";
-				};
+				}
 			];
 		};
 	};
